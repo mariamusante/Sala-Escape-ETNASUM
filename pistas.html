@@ -1,0 +1,105 @@
+<HTML>
+    <HEAD>
+        <title>PISTAS</title>
+        <link rel="stylesheet" href="1.css">
+        <link rel="stylesheet" href="2.css">
+        <link rel="stylesheet" href="pistas.css">
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    </HEAD>
+    <BODY>
+        <div class="header">
+            <div class="logo"><img src="../imagenes/logo.png"></div>
+            <div class= "cuartel">Cuartel Etnasum</div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="titPistas"><b>Creo que haz solicitado una pista...</b></div>
+        <div class="subPistas">Me extraña agente, pero quizás esto pueda ayudarte.</div>
+        <br>
+        <br>
+        <br>
+        <div>
+            <div class="pistasTitulo"><a onclick="mostrarPistasA1()">Acertijo 1 (Carta de Sahan)</a></div>
+            <div class="pistasSubtitulo" id="Sub1.1"><a onclick="mostrarInfoPistas(`pista1.1`)">Pista 1</a></div>
+            <div class="pistasInfo" id="pista1.1">Recordá que para obtener la clave tenés que leer entre líneas.</div>
+            <div class="pistasSubtitulo" id="Sub1.2"><a onclick="mostrarInfoPistas(`pista1.2`)">Pista 2</a></div>
+            <div class="pistasInfo" id="pista1.2">La clave son 4 números... De seguro estos están en la carta.</div>
+            <div class="pistasSubtitulo" id="Sub1.3"><a onclick="mostrarInfoPistas(`pista1.3`)">Pista 3</a></div>
+            <div class="pistasInfo" id="pista1.3">¿Por qué no te fijás en la cantidad de puertas, la puerta que cruzaron los padres de Sahan y las dos edades que menciona Sahan como importantes?</div>
+            <div class="pistasSubtitulo" id="Sub1.4"><a onclick="mostrarInfoPistas(`pista1.4`)">Pista 4</a></div>
+            <div class="pistasInfo" id="pista1.4">¿Aún no puedes descifrarlo? Intenta una vez más, si no te daremos la respuesta en la Pista 5.</div>
+            <div class="pistasSubtitulo" id="Sub1.5"><a onclick="mostrarInfoPistas(`pista1.5`)">Pista 5</a></div>
+            <div class="pistasInfo" id="pista1.5">Lamento que no hayas podido descifrarlo agente. De todos modos puedes continuar, la clave es 4458</div>
+            
+        </div>
+        <br>
+        <div>
+            <div class="pistasTitulo"><a onclick="mostrarPistasA2()">Acertijo 2 (Botellas)</a></div>
+            <div class="pistasSubtitulo" id="Sub2.1"><a onclick="mostrarInfoPistas(`pista2.1`)">Pista 1</a></div>
+            <div class="pistasInfo" id="pista2.1">¿Haz entrado a los archivos de Sahan? Allí hay un archivo que podría ayudarte.</div>
+            <div class="pistasSubtitulo" id="Sub2.2"><a onclick="mostrarInfoPistas(`pista2.2`)">Pista 2</a></div>
+            <div class="pistasInfo" id="pista2.2">¿Ver bebidas te ha dado sed verdad? Quizás esté relacionado con el nombre del archivo al que debes acceder</div>
+            <div class="pistasSubtitulo" id="Sub2.3"><a onclick="mostrarInfoPistas(`pista2.3`)">Pista 3</a></div>
+            <div class="pistasInfo" id="pista2.3">Recordá que el formato de la clave es una letra acompañado de un número, y las letras están ordenadas en orden alfabético, es decir que el formato sería a(número)b(número)c(número)d(número)</div>
+            <div class="pistasSubtitulo" id="Sub2.4"><a onclick="mostrarInfoPistas(`pista2.4`)">Pista 4</a></div>
+            <div class="pistasInfo" id="pista2.4">Creo que desde siempre he relacionado el marrón con la cola, el verde con el lima-limon, el amarillo con la limonada y el azul con el agua.</div>
+            <div class="pistasSubtitulo" id="Sub2.5"><a onclick="mostrarInfoPistas(`pista2.5`)">Pista 5</a></div>
+            <div class="pistasInfo" id="pista2.5">¿Aún no puedes descifrarlo? Intenta una vez más, si no te daremos la respuesta en la Pista 6.</div>
+            <div class="pistasSubtitulo" id="Sub2.6"><a onclick="mostrarInfoPistas(`pista2.6`)">Pista 6</a></div>
+            <div class="pistasInfo" id="pista2.6">Lamento que no hayas podido descifrarlo agente. De todos modos puedes continuar, la clave es "a4b2c1d3"</div>
+            
+        </div>
+        <br>
+        <div>
+            <div class="pistasTitulo"><a onclick="mostrarPistasA3()">Acertijo 3 (Llave de la Oficina)</a></div>
+            <div class="pistasSubtitulo" id="Sub3.1"><a onclick="mostrarInfoPistas(`pista3.1`)">Pista 1</a></div>
+            <div class="pistasInfo" id="pista3.1">¿Haz escrito la palabra en minúscula?</div>
+            <div class="pistasSubtitulo" id="Sub3.2"><a onclick="mostrarInfoPistas(`pista3.2`)">Pista 2</a></div>
+            <div class="pistasInfo" id="pista3.2">Creo que los nombres de las ubicaciones está en la imagen... Intenta utilizando ese nombre.</div>
+            <div class="pistasSubtitulo" id="Sub3.3"><a onclick="mostrarInfoPistas(`pista3.3`)">Pista 3</a></div>
+            <div class="pistasInfo" id="pista3.3">¿Aún no haz visto la llave? Lo único que puedo decirte es que está apoyada en un lugar que está en la derecha de la imágen</div>
+            <div class="pistasSubtitulo" id="Sub3.4"><a onclick="mostrarInfoPistas(`pista3.4`)">Pista 4</a></div>
+            <div class="pistasInfo" id="pista3.4">¿Aún no puedes descifrarlo? Intenta una vez más, si no te daremos la respuesta en la Pista 5.</div>
+            <div class="pistasSubtitulo" id="Sub3.5"><a onclick="mostrarInfoPistas(`pista3.5`)">Pista 5</a></div>
+            <div class="pistasInfo" id="pista3.5">Lamento que no hayas podido descifrarlo agente. De todos modos puedes continuar, la clave es "estante"</div>
+            
+        </div>
+        <br>
+        <div>
+            <div class="pistasTitulo"><a onclick="mostrarPistasA4()">Acertijo 4 (Acceder a la carpeta final</a>)</div>
+            <div class="pistasSubtitulo" id="Sub4.1"><a onclick="mostrarInfoPistas(`pista4.1`)">Pista 1</a></div>
+            <div class="pistasInfo" id="pista4.1">Recuerda que la clave está relacionada con el 27 de junio.</div>
+            <div class="pistasSubtitulo" id="Sub4.2"><a onclick="mostrarInfoPistas(`pista4.2`)">Pista 2</a></div>
+            <div class="pistasInfo" id="pista4.2">Para acceder a la carpeta final debes hacer click derecho sobre ella y poner extraer aquí, allí te pedirá una clave...</div>
+            <div class="pistasSubtitulo" id="Sub4.3"><a onclick="mostrarInfoPistas(`pista4.3`)">Pista 3</a></div>
+            <div class="pistasInfo" id="pista4.3">Creo que 27 de junio sería 27/06, ¿verdad?</div>
+            <div class="pistasSubtitulo" id="Sub4.4"><a onclick="mostrarInfoPistas(`pista4.4`)">Pista 4</a></div>
+            <div class="pistasInfo" id="pista4.4">¿Aún no puedes descifrarlo? Intenta una vez más, si no te daremos la respuesta en la Pista 5.</div>
+            <div class="pistasSubtitulo" id="Sub4.5"><a onclick="mostrarInfoPistas(`pista4.5`)">Pista 5</a></div>
+            <div class="pistasInfo" id="pista4.5">Lamento que no hayas podido descifrarlo agente. De todos modos puedes continuar, la clave es 2706</div>
+            
+        </div>
+        <br>
+        <div>
+            <div class="pistasTitulo"><a onclick="mostrarPistasA5()">Acertijo 5 (Clave Final)</a></div>
+            <div class="pistasSubtitulo" id="Sub5.1"><a onclick="mostrarInfoPistas(`pista5.1`)">Pista 1</a></div>
+            <div class="pistasInfo" id="pista5.1">La clave que debes poner aquí está en el documento "CARTAFINAL", dentro de la carpeta "FINAL"</div>
+            <div class="pistasSubtitulo" id="Sub5.2"><a onclick="mostrarInfoPistas(`pista5.2`)">Pista 2</a></div>
+            <div class="pistasInfo" id="pista5.2">Recuerda que la clave es una frase en minúscula</div>
+            <div class="pistasSubtitulo" id="Sub5.3"><a onclick="mostrarInfoPistas(`pista5.3`)">Pista 3</a></div>
+            <div class="pistasInfo" id="pista5.3">La frase final en el documento no está escrita en el abedecedario al que estamos acostumbrados... Quizás la clave de cómo descifrar este nuevo abecedario esté en los archivos de Sahan...</div>
+            <div class="pistasSubtitulo" id="Sub5.4"><a onclick="mostrarInfoPistas(`pista5.4`)">Pista 4</a></div>
+            <div class="pistasInfo" id="pista5.4">El archivo "ABEDECEDARIO" en los archivos de Sahan te dirán como entender esta frase...</div>
+            <div class="pistasSubtitulo" id="Sub5.5"><a onclick="mostrarInfoPistas(`pista5.5`)">Pista 5</a></div>
+            <div class="pistasInfo" id="pista5.5">¿Aún no puedes descifrarlo? Intenta una vez más, si no te daremos la respuesta en la Pista 6.</div>
+            <div class="pistasSubtitulo" id="Sub5.6"><a onclick="mostrarInfoPistas(`pista5.6`)">Pista 6</a></div>
+            <div class="pistasInfo" id="pista5.6">Lamento que no hayas podido descifrarlo agente. De todos modos puedes continuar, la clave es "gracias por jugar"</div>
+            
+        </div>
+        
+
+       <script src="Sala de escape.js"></script>
+    </BODY>
+  </HTML>

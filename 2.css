@@ -1,0 +1,183 @@
+.textos3{
+    display:grid;
+    grid-template-columns: 25% 75%;
+}
+.profe3{
+    height: 200px;
+    margin-left:60px;
+    margin-top:40px;
+}
+.txtProfe3{
+    margin-top: 50px;
+    font-family: Lato;
+    color:white;
+    font-size: 25px;
+    text-align:block;
+    display:block;
+}
+.profe32{
+    height: 200px;
+    margin-left:60px;
+    margin-top:70px;
+}
+.txtProfe32{
+    margin-top: 80px;
+    font-family: Lato;
+    color:white;
+    font-size: 25px;
+    text-align:block;
+    margin-right: 30px;
+}
+.esconderAcertijo3{
+    display:none;
+}
+.txtProfe44{
+    display:none;
+    margin-top: 150px;
+    font-family: Lato;
+    color:white;
+    font-size: 25px;
+    text-align:block;
+    margin-right: 30px;
+}
+.txtProfe46{
+    display:none;
+    margin-top: 150px;
+    font-family: Lato;
+    color:white;
+    font-size: 25px;
+    text-align:block;
+    margin-right: 30px;
+}
+.btnComenzarA2{
+    margin-top:80px;
+    justify-self:center;
+    font-family:lato;
+    font-size:20px;
+    border-radius: 20px;
+    padding: 5px;
+    justify-self:center;
+    align-self:center;
+    background-color: #ffd046;
+    margin-left:600px;
+    width: 200px;
+}
+.btnComenzarA2:hover{
+    font-weight:bold;
+}
+.cuenta{
+    margin-left:50px;
+}
+.Acertijo2 img{
+    align-self: center;
+    justify-self: center;
+    height: 200px;
+    margin-left:500px;
+}
+.Acertijo3 img{
+    align-self: center;
+    justify-self: center;
+    height: 600px;
+    margin-left:200px;
+    margin-top:40px;
+}
+.textos4{
+    display:grid;
+    grid-template-columns: 25% 75%;
+}
+/*Cuadro de verificacion-----------------------------------------------*/
+.logoPistasA2 img{
+    margin-top:25px;
+    grid-column: 4/5;
+    height: 90px;
+    margin-left:100px;
+}
+.logoPistasA2 img:hover{
+    height:100px;
+}
+.correcto2{
+    display:none;
+    grid-column: 1/5;
+    font-family: lato;
+    color:white;
+    margin-left:220px;
+    margin-top: 15px;
+
+}
+.incorrecto2{
+    display:none;
+    grid-column: 1/5;
+    font-family: lato;
+    color:white;
+    margin-left:220px;
+    margin-top: 15px;
+    
+}
+.aclaracionA2{
+    margin-top: 25px;
+    font-family: Lato;
+    color:white;
+    font-size: 15px;
+    text-align:block;
+    margin-right:20px;
+    margin-left:220px;
+    grid-column: 1/4;
+
+}
+.rta2{
+    margin-top:50px;
+    display:grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.rtaFinal{
+    display: none;
+}
+.Clave2{
+    margin-top: 25px;
+    font-family: Lato;
+    color:white;
+    font-size: 25px;
+    text-align:block;
+    margin-right:20px;
+    margin-left:220px;
+}
+.inputClave2{
+    margin-top:15px;
+    height: 40px;
+
+}
+.btnVerificar2{
+    justify-self:center;
+    font-family:lato;
+    margin-top: 35px;
+    font-size:20px;
+    border-radius: 20px;
+    padding: 5px;
+    justify-self:center;
+    align-self:center;
+    background-color: #ffd046;
+
+}
+a[class="btnVerificar"]{
+    text-decoration:none;
+    text-decoration-style: none;
+}
+.btnVerificar.hover{
+    font-weight: bold;
+}
+.despDelCertificado{
+    display:none;
+}
+.felicidades{
+    font-family: lato;
+    color:#ffd046;
+    font-size: 60px;
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+}
+.certificado img{
+    width: 90%;
+    margin-left:5%;
+    margin-bottom: 40px;
+}

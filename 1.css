@@ -1,0 +1,278 @@
+body{
+    margin:0;
+    background-color: #960200;
+}
+.ciudad{
+    width: 100%;
+    margin-top: 100px;
+}
+.cuartel{
+    margin-top: 23px;
+    font-family: play;
+    color:white;
+    font-size: 25px;
+    text-align:left;
+}
+.logo{
+    margin-left:20px;
+    margin-top:5px;
+    margin-bottom: 5px;
+}
+.header{
+    width: 100%;
+    position: fixed;
+    display:grid;
+    grid-template-columns: 20% 80%;
+    background-color: rgb(57,50,50);
+   
+}
+.textos{
+    margin-top:80px;
+    display:grid;
+    grid-template-columns: 30% 70%;
+}
+.persona img{
+    height: 200px;
+    margin-left:60px;
+    margin-top:40px;
+}
+.textoPersona{
+    margin-top: 23px;
+    font-family: Lato;
+    color:white;
+    font-size: 25px;
+    text-align:justify;
+    margin-right:40px;
+}
+.personaP {
+    display:none;
+    height: 200px;
+    margin-left:60px;
+    margin-top:40px;
+}
+.textoPersonaP{
+    display:none;
+    margin-top: 23px;
+    font-family: Lato;
+    color:white;
+    font-size: 25px;
+    text-align:justify;
+    margin-right:40px;
+}
+.btncontinuar1{
+    justify-self:center;
+    font-family:lato;
+    margin-top: 40px;
+    font-size:20px;
+    border-radius: 20px;
+    padding: 5px;
+    justify-self:center;
+    align-self:center;
+    background-color: #ffd046;
+}
+.btncont1{
+    display:grid;
+    grid-template-columns: 100%;
+}
+.btncontinuar1:hover{
+    font-weight: bold;
+}
+.btncontinuar2{
+    justify-self:center;
+    font-family:lato;
+    margin-top: 40px;
+    font-size:20px;
+    border-radius: 20px;
+    padding: 5px;
+    justify-self:center;
+    align-self:center;
+    background-color: #ffd046;
+    display:none;
+}
+.btncont2{
+    display:grid;
+    grid-template-columns: 100%;
+}
+.btncontinuar2:hover{
+    font-weight: bold;
+}
+a[class="btncontinuar2"]{
+    text-decoration:none;
+    text-decoration-style: none;
+}
+a:-webkit-any-link {
+    color:black;
+    cursor: pointer;
+    text-decoration: none;
+    text-decoration-line: none;
+   
+}
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++ACERTIJO 1++++++++++++++++++++++++++++++++++++++++++*/
+.textosAcertijo1{
+    display:grid;
+    grid-template-columns: 20% 80%;
+}
+.profeAcertijo1{
+    height: 200px;
+    margin-left:60px;
+    margin-top:100px;
+
+}
+.textoAcertijo1{
+    margin-top: 150px;
+    font-family: Lato;
+    color:white;
+    font-size: 25px;
+    text-align:block;
+    margin-right:20px;
+}
+.cartaInicial img{
+    margin-top:40px;
+    margin-left:15%;
+    width: 70%;
+}
+.rta1{
+    margin-top:50px;
+    display:grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.Clave1{
+    margin-top: 25px;
+    font-family: Lato;
+    color:white;
+    font-size: 25px;
+    text-align:block;
+    margin-right:20px;
+    margin-left:220px;
+}
+.inputClave1{
+    margin-top:15px;
+    height: 40px;
+
+}
+.btnVerificar{
+    justify-self:center;
+    font-family:lato;
+    margin-top: 35px;
+    font-size:20px;
+    border-radius: 20px;
+    padding: 5px;
+    justify-self:center;
+    align-self:center;
+    background-color: #ffd046;
+
+}
+a[class="btnVerificar"]{
+    text-decoration:none;
+    text-decoration-style: none;
+}
+.btnVerificar.hover{
+    font-weight: bold;
+}
+.imgCaja img{
+    height: 110px;
+    margin-left:100px
+
+}
+.aclaracion1{
+    margin-top: 25px;
+    font-family: Lato;
+    color:white;
+    font-size: 15px;
+    text-align:block;
+    margin-right:20px;
+    margin-left:220px;
+    grid-column: 1/4;
+
+}
+.logoPistas img{
+    margin-top:25px;
+    grid-column: 4/5;
+    height: 90px;
+    margin-left:100px;
+}
+.logoPistas img:hover{
+    height:100px;
+}
+.correcto{
+    display:none;
+    grid-column: 1/5;
+    font-family: lato;
+    color:white;
+    margin-left:220px;
+
+}
+.incorrecto{
+    display:none;
+    grid-column: 1/5;
+    font-family: lato;
+    color:white;
+    margin-left:220px;
+    
+}
+
+/*+++++++++++++++++++++++++++++++++++++++++ACERTIJO 2+++++++++++++++++++++++++++++++++++*/
+
+.textosAcertijo2{
+    display:grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.logoPendrive img{
+    margin-top:25px;
+    grid-column: 1/5;
+    height: 150px;
+    margin-left:600px;
+   
+}
+.logoPendrive img:hover{
+    height:160px;
+}
+.profeAcertijo2{
+    height: 200px;
+    margin-left:60px;
+    margin-top:100px;
+    grid-column:1/2;
+
+}
+.textoAcertijo2{
+    margin-top: 150px;
+    font-family: Lato;
+    color:white;
+    font-size: 25px;
+    text-align:block;
+    margin-right:20px;
+    grid-column:2/5;
+
+}
+.aclaracion2{
+    margin-top: 50px;
+    font-family: Lato;
+    color:white;
+    font-size: 15px;
+    text-align:block;
+    margin-right:20px;
+    margin-left:330px;
+    grid-column: 1/5;
+}
+.btnContinuarA2{
+    justify-self:center;
+    font-family:lato;
+    margin-top: 35px;
+    font-size:20px;
+    border-radius: 20px;
+    padding: 5px;
+    justify-self:center;
+    align-self:center;
+    background-color: #ffd046;
+    margin-left:600px;
+
+}
+.btnContinuarA2.hover{
+    font-weight: bold;
+}
+
+a[class="btnContinuarA2"]{
+    text-decoration:none;
+    text-decoration-style: none;
+}

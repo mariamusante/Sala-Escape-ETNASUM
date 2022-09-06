@@ -1,0 +1,55 @@
+.titPistas{
+    margin-top: 23px;
+    font-family: Lato;
+    color:#ffd046;
+    font-size: 45px;
+    text-align:center;
+}
+.subPistas{
+    margin-top: 23px;
+    font-family: Lato;
+    color:#ffd046;
+    font-size: 30px;
+    text-align:center;
+}
+.pistasInfo{
+    display:none;
+    margin-top: 23px;
+    font-family: Lato;
+    color:white;
+    font-size: 20px;
+    text-align:left;
+    margin-left:50px;
+    margin-right:50px;
+}
+.pistasSubtitulo{
+    display:none;
+    margin-top: 23px;
+    font-family: Lato;
+    font-weight: bold;;
+    color:#ffd046;
+    font-size: 20px;
+    text-align:left;
+    margin-left:40px;
+}
+.pistasSubtitulo:hover{
+    font-size:23px;
+}
+.pistasTitulo{
+    font-weight: bold;
+    margin-top: 10px;
+    font-family: Lato;
+    color:#241e4e;
+    background-color: #ffd046;
+    border-radius: 10px;
+    font-size: 25px;
+    text-align:center;
+    padding:5px;
+    margin-left:30px;
+    margin-right:30px;
+
+
+}
+.pistasTitulo:hover{
+    font-size:28px;
+}
